@@ -102,7 +102,7 @@ h2 {
     font-size: 36px;
 }
 
-.benefits {
+aside {
     margin-right: 20px;
     padding: 20px;
     clear: both;
@@ -113,6 +113,22 @@ h2 {
     background-color: #2589bd;
 }
 
+aside section {
+    margin-bottom: 32px;
+    color: #ffffff; 
+}
+
+h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+aside section img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+/* 
 .benefit-lead {
     margin-bottom: 32px;
     color: #ffffff;
@@ -126,8 +142,9 @@ h2 {
 .benefit-cost {
     margin-bottom: 32px;
     color: #ffffff;
-}
-
+} 
+*/
+/* 
 .benefit-lead h3 {
     margin-bottom: 10px;
     text-align: center;
@@ -141,8 +158,9 @@ h2 {
 .benefit-cost h3 {
     margin-bottom: 10px;
     text-align: center;
-}
-
+} 
+*/
+/* 
 .benefit-lead img {
     display: block;
     margin: 10px auto;
@@ -159,7 +177,8 @@ h2 {
     display: block;
     margin: 10px auto;
     max-width: 150px;
-}
+} 
+*/
 /* 
 .search-engine-optimization {
     margin-bottom: 20px;
