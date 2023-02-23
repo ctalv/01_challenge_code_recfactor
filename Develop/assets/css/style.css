@@ -1,29 +1,31 @@
+/* Applies style to everything on webpage */
 * {
-    box-sizing: border-box;
-    /* padding: 0; */
+    /* width and height include the content, padding, and border */
+    box-sizing: border-box; 
     margin: 0;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: #ffffff;
-    font-size: 16px;
 }
 
 body {
+    /* Adds background color behind all other elements displayed on webpage */
     background-color: #d9dcd6;
 }
 
 header {
     padding: 20px;
+    /* Changes font family from what is specified in universal selector */
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
-    /* color: #ffffff; */
 }
 
+/* Header is inline making it display left of the nav bar */
 h1 {
-    /* display: inline-block; */
     display: inline;
     font-size: 48px;
 }
 
+/* Span element is located only in header. Refers to 'seo' in 'Herseon' */
 h1 span {
     color: #d9dcd6;
 }
@@ -31,39 +33,36 @@ h1 span {
 nav {
     padding-top: 15px;
     margin-right: 20px;
+    /* nav bar is inline via header element; float right pushes the nav bar right */
     float: right;
-    /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
     font-size: 20px;
 }
-/*
-nav ul {
-    list-style-type: none;
-}
-*/
+
 nav ul li {
-    /* display: inline-block; */
     display: inline;
     margin-left: 25px;
 }
 
+/* a element is only located in nav bar. */
 a {
-    /* color: #ffffff;  */
-    text-decoration: none;
+    /* Removes the typical link underline from nav bar. */
+    text-decoration: none; 
 }
 
+/* p elements located in main, aside, and footer elements. */
 p {
+    /* Sets all p elements to font size 16px. */
     font-size: 16px;
 }
 
 body img {
     width: 100%;
     margin-bottom: 25px;
-    /* background-size: cover; */
-    /* background-position: center; */
 }
 
 main {
     width: 75%;
+    /* displays inline but allows us to set a block width and height */
     display: inline-block; 
     margin-left: 20px;
 }
@@ -71,10 +70,8 @@ main {
 main section {
     margin-bottom: 20px;
     padding: 50px;
-    height: 300px;
-    /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
+    height: 300px;    
     background-color: #0072bb;
-    /* color: #ffffff;  */
 }
 
 main img {
@@ -84,10 +81,12 @@ main img {
     margin-right: 25px;
 }
 
+/* Since main img is float left, specified float right to match original webpage */
 #online-reputation-management img {
     float: right;
 }
 
+/* All h2 elements a located within the main element */
 h2 {
     margin-bottom: 20px;
     font-size: 36px;
@@ -96,25 +95,22 @@ h2 {
 aside {
     margin-right: 20px;
     padding: 20px;
-    /* clear: both;  */
     float: right;
     width: 20%;
-    /* height: 100%;  */
-    /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
     background-color: #2589bd;
 }
 
 aside section {
     margin-bottom: 32px;
-    /* color: #ffffff;  */
 }
 
+/* All h3 elemetns are located within the aside element */
 h3 {
-    /* margin-bottom: 10px; */
     text-align: center;
 }
 
 aside section img {
+    /* Lets each image take up its own line. */
     display: block;
     margin: 10px auto;
     max-width: 150px;
@@ -122,8 +118,9 @@ aside section img {
 
 footer {
     padding: 30px;
-    /* clear: both; */
+    /* Changes font family from what is specified in universal selector */
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
     font-size: 20px;
+    color: black
 }
