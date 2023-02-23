@@ -17,7 +17,7 @@ N/A
 
 Horiseon Webpage:
 
-![Horiseon Screenshot](Develop\assets\images\screenshot.jpeg)
+![Horiseon Screenshot](Develop/assets/images/screenshot.jpeg)
 
 ## Credits
 
